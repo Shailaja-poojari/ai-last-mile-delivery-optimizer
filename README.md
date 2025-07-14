@@ -28,37 +28,27 @@ We built an intelligent, modular, and scalable dashboard that:
 - Our solution makes that possible — in a plug-and-play, AI-powered, and GPS-aware dashboard.
 
 🔧 **Key Features** 
-- AI-Powered Optimization
-Predicts delivery delays using zone, distance, and seasonal factors
-Computes risk scores for each order
-
-- Smart Consolidation
-Suggests grouped deliveries for similar localities and short distances
-
-- Displays consolidation summary + AI-generated suggestions
-
-- Emergency / Festival Mode
-On one click, apply optimization to minimize high-risk zones (e.g., Koramangala)
-
-- Easy to extend with new modes (Rain Mode, Traffic Mode, Partner Priority Mode)
-
-- Real-Time GPS Tracking
+- **AI-Powered Optimization**
+  Predicts delivery delays using zone, distance, and seasonal factors
+  Computes risk scores for each order
+- **Smart Consolidation**
+  Suggests grouped deliveries for similar localities and short distances
+- **Displays consolidation summary + AI-generated suggestions**
+- **Emergency / Festival Mode**
+  On one click, apply optimization to minimize high-risk zones (e.g., Koramangala)
+- **Easy to extend with new modes** (Rain Mode, Traffic Mode, Partner Priority Mode)
+- **Real-Time GPS Tracking**
   Uses live agent GPS to improve visibility
-
-- ETA Countdown & Risk Monitoring
+- **ETA Countdown & Risk Monitoring**
   Each order has live ETA countdown, delay severity badge, and zone-based risk flagging
-
-- Sustainability Metrics
+- **Sustainability Metrics**
   Calculates fuel and CO₂ savings from optimized routes
-
-- 🧑‍💻 Smart Chatbot Assistant
+- 🧑‍💻 **Smart Chatbot Assistant**
   Provides help and suggestions for dashboard usage
   Answers common delivery/logistics questions (React-component based)
-
-- 🔌 Offline Mode
+- 🔌 **Offline Mode**
   Works seamlessly when internet is unavailable using localStorage caching
-
-- Delivery Agent App (Companion)
+- **Delivery Agent App** (Companion)
   Mobile-friendly interface for agents to view assigned orders, optimized routes, and update delivery status
   Helps reduce confusion, delays, and syncs live with the main dashboard 
 
@@ -68,60 +58,46 @@ On one click, apply optimization to minimize high-risk zones (e.g., Koramangala)
     Uses simple JSON/mockOrder format that real systems can map to easily
 
  ⚡Extremely Modular Code
-Each function and feature is decoupled
+   Each function and feature is decoupled
+   AI modes are plug functions like applyEmergencyMode() or applyRainyMode()
 
-AI modes are plug functions like applyEmergencyMode() or applyRainyMode()
+ ⚡No Vendor Lock-in
+   Backend is Supabase (PostgreSQL) → Can switch to any backend
+   Frontend is React + Tailwind → Works with any modern stack
 
-⚡ No Vendor Lock-in
-
-Backend is Supabase (PostgreSQL) → Can switch to any backend
-
-Frontend is React + Tailwind → Works with any modern stack
-
-📈 Scalability & Upgradeability 
+📈 **Scalability & Upgradeability** 
 ⚡ Can Handle 1000s of Deliveries per Hour
-Efficient rendering (React + Tailwind UI)
+     Efficient rendering (React + Tailwind UI)
+     Grouping and filtering logic already optimized
+     Uses minimal external dependencies (low overhead)
 
-Grouping and filtering logic already optimized
+⚡**Add New Delivery Partners Easily**
+   Integrate via API or CSV → maps to existing format
+   UI adjusts dynamically based on zone, partner, distance
 
-Uses minimal external dependencies (low overhead)
+⚡**Add New Cities / Zones**
+   Our system uses zone fields — adding a new city is plug-and-play
+   No core logic changes required
 
-⚡ Add New Delivery Partners Easily
-Integrate via API or CSV → maps to existing format
+⚡**Add More AI Modes Anytime**
+   Already supports toggles for Emergency / Festival
+   Can easily add: Rain Mode, Peak Hour Mode, Partner Priority Mode etc.
+   ✅ Just plug new logic file → toggle UI → done. 
 
-UI adjusts dynamically based on zone, partner, distance
+✨ **We’re also looking forward to making this solution more scalable for real-world operations
+by integrating live delivery systems, expanding to more cities, and adapting to dynamic business needs at scale.**
 
-⚡ Add New Cities / Zones
-Our system uses zone fields — adding a new city is plug-and-play
-
-No core logic changes required
-
-⚡ Add More AI Modes Anytime
-Already supports toggles for Emergency / Festival
-
-Can easily add: Rain Mode, Peak Hour Mode, Partner Priority Mode etc.
-✅ Just plug new logic file → toggle UI → done.
-
-What’s Next 
-
-✨ We’re also looking forward to making this solution more scalable for real-world operations
-by integrating live delivery systems, expanding to more cities, and adapting to dynamic business needs at scale.
-
-🛠 Tech Stack 
-Frontend: React.js + Tailwind CSS
-
-Backend: Supabase (PostgreSQL + API)
-
-Hosting: Vercel (or Netlify/AWS/GCP)
-
-Map: Static coordinates for demo, GPS via browser
-
-AI: Rule-based predictors + delay scorers (can upgrade to ML models)
+🛠 **Tech Stack** 
+**Frontend:** React.js + Tailwind CSS
+**Backend:** Supabase (PostgreSQL + API)
+**Hosting:** Vercel (or Netlify/AWS/GCP)
+**Map**: Static coordinates for demo, GPS via browser
+**AI:** Rule-based predictors + delay scorers (can upgrade to ML models)
 
 📣 Final Pitch Statement
-“Our solution is AI-powered, offline-resilient, GPS-aware, and scalable across cities, partners, and use cases — giving Walmart a plug-and-play delivery optimizer ready for real-world operations.”
+**“Our solution is AI-powered, offline-resilient, GPS-aware, and scalable across cities, partners, and use cases — giving Walmart a plug-and-play delivery optimizer ready for real-world operations.”**
 
- Built For: 
+ **Built For:** 
 🛍 E-Commerce
 🛒 Hyperlocal Delivery
 🚕 Logistics Tech
@@ -129,49 +105,37 @@ AI: Rule-based predictors + delay scorers (can upgrade to ML models)
 
 ## 👩‍💼 Team Members
 
-*Shailaja*  — Lead Developer & System Architect
-
+**Shailaja**  — Lead Developer & System Architect
 > Designed and implemented the full-stack solution, AI logic, Supabase backend integration, route optimization, and chatbot integration.
 
-
-*Md Shish* — Pitch Presenter & Creative Lead
-
+**Md Shish** — Pitch Presenter & Creative Lead
 > Designed the presentation flow, created the pitch deck and demo video, and will represent the team during the final pitch.
 
-*Keerthana* — Research & QA Support
+**Keerthana** — Research & QA Support
+> Researched on logistics problem statements, testing of dashboard modules, and preparing FAQs for chatbot integration.
 
-> Research on logistics problem statements, testing of dashboard modules, and preparing FAQs for chatbot integration.
-
-*Ankit* — Feature Ideation & Documentation
-
-> Helped define core features like emergency/festival modes and worked on structuring the README and deployment checklist.
+**Ankit** — Feature Ideation & Documentation
+> defined core features like emergency/festival modes and worked on structuring the README and deployment checklist.
 
 ## 📸 Screenshots
-
 ### 📊 Dashboard Overview
 ![Dashboard](./screenshots/dashboard.jpg)
-
 ### 🗺 Map View with Agent Location
 ![Map](./screenshots/map-view.jpg)
-
 ### ⚠ Delay Alerts & Smart Notifications
 ![Alerts](./screenshots/delay-alerts.jpg)
-
 ### 🌿 Sustainability Metrics
 ![Sustainability](./screenshots/sustainability-cards.jpg)
-
 ### 🤖 Floating Chatbot Assistant
 ![Chatbot](./screenshots/chatbot.jpg)
-
 ### 📋 Optimized Orders Table
 ![Orders](./screenshots/optimized-orders.jpg)
 
-🚀HOW TO RUN
-
+🚀**HOW TO RUN**
 '''bash
 Clone the repo
 npm install
 npm run dev
 
-Ensure you have .env set up for Supabase keys (or use mock mode).
+**Ensure you have .env set up for Supabase keys (or use mock mode).**
 
