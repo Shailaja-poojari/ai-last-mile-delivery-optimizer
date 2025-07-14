@@ -123,9 +123,9 @@ by integrating live delivery systems, expanding to more cities, and adapting to 
 
 ## 📸 Screenshots
 ### 📊 Dashboard Overview
-![Dashboard](./screenshots/https://github.com/Shailaja-poojari/ai-last-mile-delivery-optimizer/blob/main/dashboard.jpg)
+![Dashboard](./screenshots/dashboard.jpg)
 ### 🗺 Map View with Agent Location
-![Map](./screenshots/map-view.jpg)
+![Map](./screenshots/)
 ### ⚠ Delay Alerts & Smart Notifications
 ![Alerts](./screenshots/delay-alerts.jpg)
 ### 🌿 Sustainability Metrics
@@ -134,6 +134,7 @@ by integrating live delivery systems, expanding to more cities, and adapting to 
 ![Chatbot](./screenshots/chatbot.jpg)
 ### 📋 Optimized Orders Table
 ![Orders](./screenshots/optimized-orders.jpg)
+)
 
 
 🚀**HOW TO RUN**
