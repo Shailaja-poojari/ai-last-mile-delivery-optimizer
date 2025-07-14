@@ -50,42 +50,41 @@ We built an intelligent, modular, and scalable dashboard that:
   Works seamlessly when internet is unavailable using localStorage caching
 - **Delivery Agent App** (Companion)
   Mobile-friendly interface for agents to view assigned orders, optimized routes, and update delivery status
-  Helps reduce confusion, delays, and syncs live with the main dashboard 
+  Helps reduce confusion, delays, and syncs live with the main dashboard
+  
 
 🔌 **Why This Solution is Plug-and-Play** 
  ⚡Companies can adopt it without rewriting existing tools
     No hard dependency on internal APIs — can connect via Supabase, REST, or partner APIs
     Uses simple JSON/mockOrder format that real systems can map to easily
-
  ⚡Extremely Modular Code
    Each function and feature is decoupled
    AI modes are plug functions like applyEmergencyMode() or applyRainyMode()
-
  ⚡No Vendor Lock-in
    Backend is Supabase (PostgreSQL) → Can switch to any backend
    Frontend is React + Tailwind → Works with any modern stack
+
 
 📈 **Scalability & Upgradeability** 
 ⚡ Can Handle 1000s of Deliveries per Hour
      Efficient rendering (React + Tailwind UI)
      Grouping and filtering logic already optimized
      Uses minimal external dependencies (low overhead)
-
 ⚡**Add New Delivery Partners Easily**
    Integrate via API or CSV → maps to existing format
    UI adjusts dynamically based on zone, partner, distance
-
 ⚡**Add New Cities / Zones**
    Our system uses zone fields — adding a new city is plug-and-play
    No core logic changes required
-
 ⚡**Add More AI Modes Anytime**
    Already supports toggles for Emergency / Festival
    Can easily add: Rain Mode, Peak Hour Mode, Partner Priority Mode etc.
    ✅ Just plug new logic file → toggle UI → done. 
 
+
 ✨ **We’re also looking forward to making this solution more scalable for real-world operations
 by integrating live delivery systems, expanding to more cities, and adapting to dynamic business needs at scale.**
+
 
 🛠 **Tech Stack** 
 **Frontend:** React.js + Tailwind CSS
@@ -94,14 +93,17 @@ by integrating live delivery systems, expanding to more cities, and adapting to 
 **Map**: Static coordinates for demo, GPS via browser
 **AI:** Rule-based predictors + delay scorers (can upgrade to ML models)
 
+
 📣 Final Pitch Statement
 **“Our solution is AI-powered, offline-resilient, GPS-aware, and scalable across cities, partners, and use cases — giving Walmart a plug-and-play delivery optimizer ready for real-world operations.”**
+
 
  **Built For:** 
 🛍 E-Commerce
 🛒 Hyperlocal Delivery
 🚕 Logistics Tech
 ⚡ Walmart Sparkathon 2025
+
 
 ## 👩‍💼 Team Members
 
@@ -117,6 +119,7 @@ by integrating live delivery systems, expanding to more cities, and adapting to 
 **Ankit** — Feature Ideation & Documentation
 > defined core features like emergency/festival modes and worked on structuring the README and deployment checklist.
 
+
 ## 📸 Screenshots
 ### 📊 Dashboard Overview
 ![Dashboard](./screenshots/dashboard.jpg)
@@ -130,6 +133,7 @@ by integrating live delivery systems, expanding to more cities, and adapting to 
 ![Chatbot](./screenshots/chatbot.jpg)
 ### 📋 Optimized Orders Table
 ![Orders](./screenshots/optimized-orders.jpg)
+
 
 🚀**HOW TO RUN**
 '''bash
