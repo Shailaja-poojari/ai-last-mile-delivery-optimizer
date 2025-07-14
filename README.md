@@ -110,20 +110,20 @@ by integrating live delivery systems, expanding to more cities, and adapting to 
 **Shailaja Poojary**  — Lead Developer & System Architect
 > Designed and implemented the full-stack solution, AI logic, Supabase backend integration, route optimization, and chatbot integration.
 
+**Mohammad Shish** - Pitch Presenter & Creative Lead
+> Designed the presentation flow, created the pitch deck and demo video and will represent the team during the final pitch.
+
 **Ankit Kumar Singh** — Feature Ideation & Documentation
 > defined core features like emergency/festival modes and worked on structuring the README and deployment checklist.
 
-**Md Shish** - Pitch Presenter & Creative Lead
-> Designed the presentation flow, created the pitch deck and demo video and will represent the team during the final pitch.
-
-**Mohammad Ifham Gulzar** — Research & QA Support
+**Keerthana** — Research & QA Support
 > Researched on logistics problem statements, testing of dashboard modules, and preparing FAQs for chatbot integration.
 
 
 
 ## 📸 Screenshots
 ### 📊 Dashboard Overview
-![Dashboard](./screenshots/dashboard.jpg)
+![Dashboard](./screenshots/)
 ### 🗺 Map View with Agent Location
 ![Map](./screenshots/map-view.jpg)
 ### ⚠ Delay Alerts & Smart Notifications
