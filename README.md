@@ -123,7 +123,7 @@ by integrating live delivery systems, expanding to more cities, and adapting to 
 
 ## 📸 Screenshots
 ### 📊 Dashboard Overview
-![Dashboard](./screenshots/)
+![Dashboard](./screenshots/https://github.com/Shailaja-poojari/ai-last-mile-delivery-optimizer/blob/main/dashboard.jpg)
 ### 🗺 Map View with Agent Location
 ![Map](./screenshots/map-view.jpg)
 ### ⚠ Delay Alerts & Smart Notifications
