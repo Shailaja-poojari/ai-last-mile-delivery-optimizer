@@ -107,17 +107,18 @@ by integrating live delivery systems, expanding to more cities, and adapting to 
 
 ## 👩‍💼 Team Members
 
-**Shailaja**  — Lead Developer & System Architect
+**Shailaja Poojary**  — Lead Developer & System Architect
 > Designed and implemented the full-stack solution, AI logic, Supabase backend integration, route optimization, and chatbot integration.
 
-**Md Shish** — Pitch Presenter & Creative Lead
-> Designed the presentation flow, created the pitch deck and demo video, and will represent the team during the final pitch.
+**Ankit Kumar Singh** — Feature Ideation & Documentation
+> defined core features like emergency/festival modes and worked on structuring the README and deployment checklist.
 
-**Keerthana** — Research & QA Support
+**Md Shish** - Pitch Presenter & Creative Lead
+> Designed the presentation flow, created the pitch deck and demo video and will represent the team during the final pitch.
+
+**Mohammad Ifham Gulzar** — Research & QA Support
 > Researched on logistics problem statements, testing of dashboard modules, and preparing FAQs for chatbot integration.
 
-**Ankit** — Feature Ideation & Documentation
-> defined core features like emergency/festival modes and worked on structuring the README and deployment checklist.
 
 
 ## 📸 Screenshots
