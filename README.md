@@ -121,32 +121,17 @@ We built an intelligent, modular, and scalable dashboard that:
 > Designed and implemented the full-stack solution, AI logic, Supabase backend integration, route optimization, and chatbot integration.
 
 
-
 **Md Shish** — Pitch Presenter & Creative Lead
 
 > Designed the presentation flow, created the pitch deck and demo video, and will represent the team during the final pitch.
-
-
 
 **Keerthana** — Research & QA Support
 
 > Contributed to research on logistics problem statements, testing of dashboard modules, and preparing FAQs for chatbot integration.
 
-
-
 **Ankit** — Feature Ideation & Documentation
 
 > Helped define core features like emergency/festival modes and worked on structuring the README and deployment checklist.
-
-
-
-##  How to Run
-```bash
-# Clone the repo
-npm install
-npm run dev
-
-Ensure you have `.env` set up for Supabase keys (or use mock mode).
 
 
 ## 📣 Final Pitch Statement
@@ -159,5 +144,15 @@ Ensure you have `.env` set up for Supabase keys (or use mock mode).
 🛒 Hyperlocal Delivery  
 🚕 Logistics Tech  
 🏆 Walmart Sparkathon 2025.
+
+##  How to Run
+```bash
+# Clone the repo
+npm install
+npm run dev
+
+Ensure you have `.env` set up for Supabase keys (or use mock mode).
+
+
 
 
