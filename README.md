@@ -120,23 +120,6 @@ by integrating live delivery systems, expanding to more cities, and adapting to 
 > Researched on logistics problem statements, testing of dashboard modules, and preparing FAQs for chatbot integration.
 
 
-
-## 📸 Screenshots
-### 📊 Dashboard Overview
-![Dashboard](./screenshots/dashboard.jpg)
-### 🗺 Map View with Agent Location
-![Map](./screenshots/)
-### ⚠ Delay Alerts & Smart Notifications
-![Alerts](./screenshots/delay-alerts.jpg)
-### 🌿 Sustainability Metrics
-![Sustainability](./screenshots/sustainability-cards.jpg)
-### 🤖 Floating Chatbot Assistant
-![Chatbot](./screenshots/chatbot.jpg)
-### 📋 Optimized Orders Table
-![Orders](./screenshots/optimized-orders.jpg)
-)
-
-
 🚀**HOW TO RUN**
 '''bash
 Clone the repo
