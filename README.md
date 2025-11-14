@@ -104,10 +104,11 @@ by integrating live delivery systems, expanding to more cities, and adapting to 
 🚕 Logistics Tech
 ⚡ Walmart Sparkathon 2025
 
-**👩‍💻 Author**
 
+**👩‍💻 Author**
 **Shailaja Poojary**
 Creator & Maintainer of the AI Last-Mile Delivery Optimizer
+
 
 🚀**HOW TO RUN**
 '''bash
